@@ -1,0 +1,14 @@
+.card {
+  width: 40rem;
+  max-width: 80%;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+}
+.card h4 {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: normal;
+  background-color: #f8f9f8;
+  border-bottom: 1px solid #ddd;
+  padding: 0.75rem;
+}

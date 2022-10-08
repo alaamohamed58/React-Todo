@@ -1,0 +1,26 @@
+.output .results {
+  padding: 15px;
+}
+.options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.options li {
+  color: #0f7bfe;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.output .conditionalmsg {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.select {
+  padding: 0.5rem;
+  border: 1px solid #0f7bfe;
+  margin: 10px auto;
+  display: block;
+}

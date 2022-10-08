@@ -1,0 +1,24 @@
+.outputlist button {
+  margin-right: 10px;
+}
+.outputlist li {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 10px 0;
+  background-color: #444;
+  padding: 10px;
+  align-items: center;
+  transition: 0.5s;
+  color: #fff;
+}
+.done {
+  opacity: 0.3;
+}
+
+.complete {
+  background-color: #0f7bfe;
+}
+.delete {
+  background-color: #dd3444;
+}
